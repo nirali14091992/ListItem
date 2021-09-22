@@ -1,0 +1,186 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* background-color: #d2dbdd; */
+	font-family: "Josefin Sans", sans-serif;
+}
+.main_div {
+	width: 100%;
+	height: 100vh;
+	background: #6983aa;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.center_div {
+	width: 25%;
+	height: 80vh;
+	background-color: #f4f4f4;
+	box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.heading__style {
+	background-color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-size: 13px;
+	letter-spacing: 2px;
+	padding: 40px;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+.todolist_heading {
+	color: white;
+	background: transparent;
+	background-color: #8566aa;
+	padding: 6px 0 2px 0;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+.cards {
+	float: left;
+	margin: 50px;
+	background-color: grey;
+}
+.card__img {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+.slot__inner {
+	text-align: center;
+}
+.slotmachine {
+	height: 500px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid rgb(49, 48, 48);
+}
+/* div {
+	width: 100%;
+	height: 150vh;
+	background-color: #8e44ad;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+} */
+/* button {
+	padding: 15px 20px;
+	background: #9b59b6;
+	color: white;
+	border: 2px solid #ecf0f1;
+	outline: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #20bf6b;
+} */
+.btn_green:hover {
+	color: #20bf6b;
+}
+.btn_red:hover {
+	color: #ff4757;
+}
+.formheading__style{
+	color: white;
+	background: transparent;
+	text-shadow: 0 2px 2px black;
+}
+input {
+	width: 50%;
+	padding: 10px 20px;
+	border: none;
+	outline: none;
+	margin: 20px 0;
+	text-align: center;
+}
+.todolist_input {
+	text-align: center;
+	height: 30px;
+	top:10px;
+	border: none;
+	background: transparent;
+	font-size: 20px;
+	font-weight: 500;
+	width: 60%;
+	border-bottom: 2px solid #8566aa;
+	outline: none;
+}
+.todolist_button{
+	min-height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border-color: transparent;
+	background-color: #8566aa;
+	color: #fff;
+	font-size: 40px;
+	border: none;
+	outline: none;
+	margin-left: 10px;
+	box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);
+}
+.todolist_button:hover {
+	background-color: #20bf6b;
+}
+.forms_button {
+	line-height: 24px;
+	padding: 0 20px;
+	background:  #9b59b6;
+	color: white;
+	border: 2px solid #ecf0f1;
+	outline: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+ol {
+	margin-top: 30px;
+}
+ol li{
+	padding-left: 0px;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 500;
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	color: #8566aa;
+	text-transform: capitalize;
+}
+.todo_style{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+}
+.todo_style .fa-times{
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8566aa;
+	border-radius: 50%;
+	margin: 0 15px 0 35px;
+	color: aliceblue;
+	box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.3);	
+}
+.todo_style .fa-times:hover {
+	background-color: crimson;
+}
+.todo_style .fa-times:hover .list_style{
+	color: crimson;
+}
